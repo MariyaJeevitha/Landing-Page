@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 5%;
+    background-color: transparent;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+li,
+a,
+button {
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 40px;
+}
+
+nav ul li a {
+    transition: all 0.3s ease 0s;
+}
+
+nav ul li a:hover {
+    color: rgb(99, 94, 94);
+    transition: all 0.3s ease 0s;
+}
+
+header>button {
+    padding: 9px 25px;
+    background-color: #8d33dc;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.5s ease 0s;
+    color: #fff;
+}
+
+header>button:hover {
+    background-color: #b371ed;
+}
+
+/* Wrapper */
+.wrapper {
+    background: url('../img/landing_img.jpg') no-repeat center / cover;
+}
+
+/* Content CSS */
+.content {
+    display: flex;
+    padding: 80px 5%;
+    justify-content: space-between;
+    color: white;
+}
+
+.hero-info h1 {
+    font-size: 40px;
+}
+
+.hero-info p {
+    margin: 30px 0px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.btn-outline {
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 12px 30px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-outline:hover {
+    background: #ffffff;
+    color: #8d33dc;
+}
+
+/* Social Links */
+.social-link {
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.social-link ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-social {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.bg-facebook {
+    background-color: #4267b2;
+}
+
+.bg-facebook:hover {
+    background-color: #728ec6;
+}
+
+.bg-youtube {
+    background-color: #ff0000;
+}
+
+.bg-youtube:hover {
+    background-color: #e84747;
+}
+
+.bg-instagram {
+    background-color: #c13584;
+}
+
+.bg-instagram:hover {
+    background-color: #cb6da3;
+}
